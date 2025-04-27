@@ -10,7 +10,7 @@ const BookCard = ({ book }) => {
             <div className="flex flex-col w-full mt-3  pb-5 "  >
                 <h2 className="font-[arvo] text-[#F5F5F5] max-md:text-sm/tight  font-bold px-4" >{book.title}</h2>
                 <p className="font-[poppins] max-md:text-sm text-[#D3D3D3] px-4" >{book.author}</p>
-                <div className="font-[roboto] flex justify-between max-md:flex-col w-full px-4">
+                <div className="font-[roboto] flex justify-between flex-col md:flex-row w-full px-4">
                     <span>
                         <Rating name="read-only" value={book.rating} precision={0.1} size="small" readOnly />
                     </span>
