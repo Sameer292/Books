@@ -1,7 +1,7 @@
 import './App.css'
 import BookProfile from './components/BookProfile';
 import Books from './components/Books'
-import { createBrowserRouter, RouterProvider } from 'react-router'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
