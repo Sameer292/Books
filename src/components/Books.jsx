@@ -1,6 +1,4 @@
 import React from 'react'
-import BookCard from './BookCard'
-import BookJson from '../assets/books.json'
 import Navbar from '../Navigation/Navbar'
 import BookItems from './BookItems'
 
